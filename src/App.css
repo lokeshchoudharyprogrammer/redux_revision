@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 94px;
+}
+
+.navbar-logo {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.logo-img {
+  border-radius: 69%;
+  width: 60px;
+  height: 58px;
+}
+
+.navbar-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 33px;
+  width: 90%;
+  margin: auto;
+}
+
+.box-con {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.btn {
+  background: blueviolet;
+  padding: 9px;
+  border: 2px solid black;
+  color: white;
+  border-radius: 4px;
+}
