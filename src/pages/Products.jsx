@@ -26,6 +26,7 @@ const Products = props => {
 
     }
 
+    
     return (
         <div className="container">
             {
