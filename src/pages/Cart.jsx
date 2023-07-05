@@ -29,7 +29,7 @@ const Cart = props => {
     <div>
       <h3 style={{ textAlign: "center" }}>Cart</h3>
 
-      {products > 0 ? <div className="container">
+      <div className="container">
         {
 
           products && products.map((res) => {
@@ -42,8 +42,7 @@ const Cart = props => {
             </div>
           })
         }
-      </div> : <h1 style={style.h1tg}>Your Cart Is Empty Now </h1>
-      }
+      </div> 
     </div>
   )
 }
